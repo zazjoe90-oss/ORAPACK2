@@ -23,6 +23,7 @@ export const products: Product[] = [
     longDescription: "L'ensacheuse à vis ORA PACK est la solution idéale pour les produits tels que la farine, le café moulu, les épices et les produits chimiques en poudre. Son système de dosage par vis sans fin garantit une précision exceptionnelle et un environnement de travail sans poussière.",
     image: "https://i.postimg.cc/fDRGZFcz/enchaseuse.jpg",
     features: [
+      "Garantie 1 an avec suivi de maintenance",
       "Utilisation du film à plat PE et PP",
       "Régulation automatique de la température de soudure",
       "Coupe du sachet par couteau à 2 étages",
@@ -49,8 +50,9 @@ export const products: Product[] = [
     category: "Ensacheuses",
     description: "Solution économique et rapide pour le dosage volumétrique de produits réguliers.",
     longDescription: "L'ensacheuse à tasses volumétriques est conçue pour la rapidité et la simplicité. Elle convient parfaitement aux produits de granulométrie régulière comme le riz, le sel, le sucre ou les petites graines.",
-    image: "https://i.postimg.cc/pRLwx7fd/enchaseuse-3.jpg",
+    image: "https://i.postimg.cc/3KF1kr7R/Whats-App-Image-2026-03-01-at-12-27-45.jpg",
     features: [
+      "Garantie 1 an avec suivi de maintenance",
       "Utilisation du film à plat PE et PP",
       "Régulation automatique de la température de soudure",
       "Coupe du sachet par couteau à 2 étages",
@@ -77,8 +79,9 @@ export const products: Product[] = [
     category: "Ensacheuses",
     description: "Idéale pour les produits de formes irrégulières et les mélanges complexes.",
     longDescription: "Grâce à son système de balance linéaire ou multi-têtes, cette ensacheuse pondérale traite avec soin les produits délicats ou de formes variées tels que les pâtes, les snacks, les biscuits ou les fruits secs.",
-    image: "https://i.postimg.cc/3KF1kr7R/Whats-App-Image-2026-03-01-at-12-27-45.jpg",
+    image: "https://i.postimg.cc/pRLwx7fd/enchaseuse-3.jpg",
     features: [
+      "Garantie 1 an avec suivi de maintenance",
       "Utilisation du film à plat PE et PP",
       "Régulation automatique de la température de soudure",
       "Coupe du sachet par couteau à 2 étages",
@@ -99,26 +102,27 @@ export const products: Product[] = [
     ]
   },
   {
-    id: "4",
-    slug: "convoyeur",
-    name: "Convoyeur",
-    category: "Accessoires",
-    description: "Systèmes de transport robustes et modulables pour optimiser votre ligne de production.",
-    longDescription: "Nos convoyeurs sont conçus pour assurer un flux continu et efficace de vos produits entre les différentes étapes de conditionnement. Robustes, faciles à nettoyer et modulables, ils s'adaptent parfaitement à vos contraintes d'espace et de production.",
-    image: "https://i.postimg.cc/kqg09ZQG/convayeur.jpg",
+    id: "5",
+    slug: "ensacheuse-ponderal-semi-automatique",
+    name: "Ensacheuse pondéral semi-automatique",
+    category: "Ensacheuses",
+    description: "Machine de emballage pondéral semi-automatique pour céréales et grains (5 g – 1000 g)",
+    longDescription: "Machine de remplissage pondéral semi-automatique conçue pour l’emballage précis de différents produits alimentaires comme le riz, les lentilles, le sucre, les fruits secs et autres grains. Elle garantit précision, facilité d’utilisation et productivité élevée.",
+    image: "https://i.postimg.cc/xnX4xZks/Whats-App-Image-2026-03-12-at-21-11-12.jpg",
     features: [
-      "Bande transporteuse haute résistance",
-      "Vitesse réglable par variateur",
-      "Structure en Inox 304",
-      "Hauteur ajustable",
-      "Maintenance minimale"
+      "Fabrication marocaine",
+      "Garantie 1 an avec suivi de maintenance",
+      "Facile à utiliser, rapide, améliore la productivité",
+      "Précision de pesage haute précision",
+      "Structure métallique résistante"
     ],
     specs: [
-      { label: "Longueur", value: "2m - 6m (sur mesure)" },
-      { label: "Largeur bande", value: "200mm - 500mm" },
-      { label: "Vitesse", value: "0 - 15 m/min" },
-      { label: "Charge max", value: "50 kg/m" },
-      { label: "Moteur", value: "0.75 kW" }
+      { label: "Type de machine", value: "Remplisseuse pondérale semi-automatique" },
+      { label: "Plage de poids", value: "5 g – 1000 g" },
+      { label: "Produits compatibles", value: "Riz, lentilles, sucre, céréales, fruits secs, etc." },
+      { label: "Mode de fonctionnement", value: "Semi-automatique" },
+      { label: "Matériau", value: "Structure métallique résistante" },
+      { label: "Utilisation", value: "Emballage alimentaire et agricole" }
     ]
   }
 ];
